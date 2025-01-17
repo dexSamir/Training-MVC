@@ -10,3 +10,4 @@ C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.Core\obj\Debug\net8.0\T
 C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.Core\obj\Debug\net8.0\refint\Training.Core.dll
 C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.Core\obj\Debug\net8.0\Training.Core.pdb
 C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.Core\obj\Debug\net8.0\ref\Training.Core.dll
+C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.Core\obj\Debug\net8.0\Training.Core.sourcelink.json

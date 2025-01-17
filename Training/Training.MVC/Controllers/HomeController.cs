@@ -1,11 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
+using Training.DAL.Context;
 
 namespace Training.MVC.Controllers;
-public class HomeController : Controller
+public class HomeController(AppdbContext _context) : Controller
 {
-    public IActionResult Index()
+    public async Task<IActionResult> Index()
     {
-        return View();
+        return View(await _context.Trainers.ToListAsync());
     }
 }

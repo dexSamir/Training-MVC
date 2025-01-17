@@ -1,11 +1,14 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Training.BL.VM.Category;
 using Training.Core.Entities;
+using Training.Core.Enums;
 using Training.DAL.Context;
 
 namespace Training.MVC.Areas.Admin.Controllers;
 [Area("Admin")]
+[Authorize(Roles =nameof(Roles.Admin))]
 public class CategoryController(AppdbContext _context) : Controller
 {
     public async Task<IActionResult> Index()

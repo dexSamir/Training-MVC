@@ -1,13 +1,15 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Training.BL.Extension;
 using Training.BL.VM.Trainer;
 using Training.Core.Entities;
+using Training.Core.Enums;
 using Training.DAL.Context;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Training.MVC.Areas.Admin.Controllers;
 [Area("Admin")]
+[Authorize(Roles = nameof(Roles.Admin))]
 public class TrainerController(AppdbContext _context, IWebHostEnvironment _env) : Controller
 {
     public async Task<IActionResult> Index()

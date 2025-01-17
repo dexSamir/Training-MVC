@@ -56,7 +56,16 @@
                             <li class="scroll-to-section"><a href="#our-classes">Classes</a></li>
                             <li class="scroll-to-section"><a href="#schedule">Schedules</a></li>
                             <li class="scroll-to-section"><a href="#contact-us">Contact</a></li>
-                            <li class="main-button"><a href="#">Sign Up</a></li>
+                            <li class="main-button">
+                                @if (User.Identity!.IsAuthenticated)
+                                {
+                                    <a asp-controller="Auth" asp-action="Logout">Log out</a>
+                                }
+                                else
+                                {
+                                    <a asp-controller="Auth" asp-action="Login">Log in</a>
+                                }
+                            </li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -70,41 +79,41 @@
     <!-- ***** Header Area End ***** -->
     @RenderBody()
 
-            <!-- ***** Footer Start ***** -->
-            <footer>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <p>
-                                Copyright &copy; 2020 Training Studio
+    <!-- ***** Footer Start ***** -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>
+                        Copyright &copy; 2020 Training Studio
 
-                                - Designed by <a rel="nofollow" href="https://templatemo.com" class="tm-text-link" target="_parent">TemplateMo</a>
-                            </p>
+                        - Designed by <a rel="nofollow" href="https://templatemo.com" class="tm-text-link" target="_parent">TemplateMo</a>
+                    </p>
 
-                            <!-- You shall support us a little via PayPal to info@templatemo.com -->
+                    <!-- You shall support us a little via PayPal to info@templatemo.com -->
 
-                        </div>
-                    </div>
                 </div>
-            </footer>
+            </div>
+        </div>
+    </footer>
 
-            <!-- jQuery -->
-            <script src="~/assets/js/jquery-2.1.0.min.js"></script>
+    <!-- jQuery -->
+    <script src="~/assets/js/jquery-2.1.0.min.js"></script>
 
-            <!-- Bootstrap -->
-            <script src="~/assets/js/popper.js"></script>
-            <script src="~/assets/js/bootstrap.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="~/assets/js/popper.js"></script>
+    <script src="~/assets/js/bootstrap.min.js"></script>
 
-            <!-- Plugins -->
-            <script src="~/assets/js/scrollreveal.min.js"></script>
-            <script src="~/assets/js/waypoints.min.js"></script>
-            <script src="~/assets/js/jquery.counterup.min.js"></script>
-            <script src="~/assets/js/imgfix.min.js"></script>
-            <script src="~/assets/js/mixitup.js"></script>
-            <script src="~/assets/js/accordions.js"></script>
+    <!-- Plugins -->
+    <script src="~/assets/js/scrollreveal.min.js"></script>
+    <script src="~/assets/js/waypoints.min.js"></script>
+    <script src="~/assets/js/jquery.counterup.min.js"></script>
+    <script src="~/assets/js/imgfix.min.js"></script>
+    <script src="~/assets/js/mixitup.js"></script>
+    <script src="~/assets/js/accordions.js"></script>
 
-            <!-- Global Init -->
-            <script src="~/assets/js/custom.js"></script>
+    <!-- Global Init -->
+    <script src="~/assets/js/custom.js"></script>
 
 </body>
 </html>

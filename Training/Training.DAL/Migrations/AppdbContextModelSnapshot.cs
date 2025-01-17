@@ -175,7 +175,7 @@ namespace Training.DAL.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Categories", (string)null);
                 });
 
             modelBuilder.Entity("Training.Core.Entities.Trainer", b =>
@@ -211,7 +211,7 @@ namespace Training.DAL.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Trainers");
+                    b.ToTable("Trainers", (string)null);
                 });
 
             modelBuilder.Entity("Training.Core.Entities.User", b =>
