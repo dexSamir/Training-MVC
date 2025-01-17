@@ -1,0 +1,17 @@
+C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.DAL\obj\Debug\net8.0\Training.DAL.csproj.AssemblyReference.cache
+C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.DAL\obj\Debug\net8.0\Training.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.DAL\obj\Debug\net8.0\Training.DAL.AssemblyInfoInputs.cache
+C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.DAL\obj\Debug\net8.0\Training.DAL.AssemblyInfo.cs
+C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.DAL\obj\Debug\net8.0\Training.DAL.csproj.CoreCompileInputs.cache
+C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.DAL\bin\Debug\net8.0\Training.DAL.deps.json
+C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.DAL\bin\Debug\net8.0\Training.DAL.runtimeconfig.json
+C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.DAL\bin\Debug\net8.0\Training.DAL.dll
+C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.DAL\bin\Debug\net8.0\Training.DAL.pdb
+C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.DAL\bin\Debug\net8.0\Training.Core.dll
+C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.DAL\bin\Debug\net8.0\Training.Core.pdb
+C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.DAL\obj\Debug\net8.0\Training.DAL.csproj.CopyComplete
+C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.DAL\obj\Debug\net8.0\Training.DAL.dll
+C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.DAL\obj\Debug\net8.0\refint\Training.DAL.dll
+C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.DAL\obj\Debug\net8.0\Training.DAL.pdb
+C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.DAL\obj\Debug\net8.0\Training.DAL.genruntimeconfig.cache
+C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.DAL\obj\Debug\net8.0\ref\Training.DAL.dll
