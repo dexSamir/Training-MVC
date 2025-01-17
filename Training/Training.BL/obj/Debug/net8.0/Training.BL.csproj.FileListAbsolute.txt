@@ -15,3 +15,4 @@ C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.BL\obj\Debug\net8.0\Tra
 C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.BL\obj\Debug\net8.0\refint\Training.BL.dll
 C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.BL\obj\Debug\net8.0\Training.BL.pdb
 C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.BL\obj\Debug\net8.0\ref\Training.BL.dll
+C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.BL\obj\Debug\net8.0\Training.BL.sourcelink.json

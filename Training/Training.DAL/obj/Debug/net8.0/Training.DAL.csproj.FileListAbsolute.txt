@@ -15,3 +15,4 @@ C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.DAL\obj\Debug\net8.0\re
 C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.DAL\obj\Debug\net8.0\Training.DAL.pdb
 C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.DAL\obj\Debug\net8.0\Training.DAL.genruntimeconfig.cache
 C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.DAL\obj\Debug\net8.0\ref\Training.DAL.dll
+C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.DAL\obj\Debug\net8.0\Training.DAL.sourcelink.json

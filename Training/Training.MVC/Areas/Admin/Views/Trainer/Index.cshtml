@@ -1,0 +1,65 @@
+﻿@model List<Trainer>
+@{
+    ViewData["Title"] = "Trainer Page";
+    int count = 1;
+}
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="card shadow mb-4">
+                <div class="card-header py-3 d-flex justify-content-between align-items-center">
+                    <h6 class="m-0 font-weight-bold text-primary">Trainer List</h6>
+                    <a asp-action="Create" asp-controller="Trainer" class="btn btn-outline-primary">Create</a>
+                </div>
+                <div class="card-body">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Image</th>
+                                <th scope="col">Fullname</th>
+                                <th scope="col">Description</th>
+                                <th scope="col">Category</th>
+                                <th scope="col">Created Time</th>
+                                <th scope="col">Update</th>
+                                <th scope="col">Delete</th>
+                                <th scope="col">Show/Hide</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td scope="col">@(count++)</td>
+                                    <td scope="col"><img src="~/imgs/trainers/@item.ImageUrl" width="50px"/></td>
+                                    <td scope="col">@item.Fullname</td>
+                                    <td scope="col">@item.Description</td>
+                                    <td scope="col">@item.Category.Name</td>
+                                    <td scope="col">@item.CreatedTime</td>
+                                    <td scope="col">
+                                        <a class="btn btn-outline-primary" asp-action="Update" asp-controller="Trainer" asp-route-id="@item.Id">
+                                            <i class="fa-solid fa-pen"></i>
+                                        </a>
+                                    </td>
+                                    <td scope="col">
+                                        <a class="btn btn-outline-danger" asp-action="Delete" asp-controller="Trainer" asp-route-id="@item.Id">
+                                            <i class="fa-solid fa-trash"></i>
+                                        </a>
+                                    </td>
+                                    <td scope="col">
+                                        <a class="btn @(item.IsDeleted ? "btn-outline-warning" : "btn-outline-secondary")"
+                                           asp-action="@(item.IsDeleted ? "Show" : "Hide")"
+                                           asp-controller="Trainer"
+                                           asp-route-id="@item.Id">
+                                            <i class="fa-solid @(item.IsDeleted ? "fa-eye-slash" : "fa-eye")"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

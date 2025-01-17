@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8IB8UNIzBus9izJq8b+SNvAMuxsLr7P0ujAJpOuOuxI=",
+  "Hash": "dUe9nnMBNdwz4l1Dc2BtGXXtThxBaMqTNgYhPaqmsys=",
   "Source": "Training.MVC",
   "BasePath": "_content/Training.MVC",
   "Mode": "Default",
@@ -36115,6 +36115,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\waypoints.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\ll Novbe\\Desktop\\Training-MVC\\Training\\Training.MVC\\wwwroot\\imgs\\trainers\\is0dxmhe.h0g.png",
+      "SourceId": "Training.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ll Novbe\\Desktop\\Training-MVC\\Training\\Training.MVC\\wwwroot\\",
+      "BasePath": "_content/Training.MVC",
+      "RelativePath": "imgs/trainers/is0dxmhe.h0g.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgs\\trainers\\is0dxmhe.h0g.png"
     },
     {
       "Identity": "C:\\Users\\ll Novbe\\Desktop\\Training-MVC\\Training\\Training.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

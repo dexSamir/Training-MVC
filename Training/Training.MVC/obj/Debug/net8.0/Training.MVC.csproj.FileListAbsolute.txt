@@ -153,3 +153,5 @@ C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.MVC\obj\Debug\net8.0\re
 C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.MVC\obj\Debug\net8.0\Training.MVC.pdb
 C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.MVC\obj\Debug\net8.0\Training.MVC.genruntimeconfig.cache
 C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.MVC\obj\Debug\net8.0\ref\Training.MVC.dll
+C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.MVC\obj\Debug\net8.0\Training.MVC.sourcelink.json
+C:\Users\ll Novbe\Desktop\Training-MVC\Training\Training.MVC\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
